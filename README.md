@@ -18,13 +18,16 @@ What is backbone? Backbone is a FPN style deep neural network. It consists of a 
 ![rc2](https://user-images.githubusercontent.com/37294597/90334260-fb04ef00-dfe9-11ea-9c4e-685a657ff2d1.png)
 
 Used custom dataset of laptops and labelled them and drew mask on them using labelling software
-converted them to json and split them in train and test dataset
-Converted them to COCO dataset format using script to convert them
-Using google colab registered them with COCO dataset
-Using Detectron 2(open source library )performed transfer learning to train model on custom dataset for mask of laptop and keyboard
-Using test dataset we tested our model to draw mask and it performed very well for mask on laptop and keyboard
-I am giving the link of google colab of the task I performed
 
+converted them to json and split them in train and test dataset
+
+Converted them to COCO dataset format using script to convert them
+
+Using google colab registered them with COCO dataset
+
+Using Detectron 2(open source library )performed transfer learning to train model on custom dataset for mask of laptop and keyboard
+
+Using test dataset we tested our model to draw mask and it performed very well for mask on laptop and keyboard
 
 
 ![rc3](https://user-images.githubusercontent.com/37294597/90334295-4a4b1f80-dfea-11ea-8d74-11ef54c8f431.png)
